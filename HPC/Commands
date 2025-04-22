@@ -20,5 +20,13 @@ CUDA INSTALLATION
    sudo apt-get update
    sudo apt-get -y install cuda-toolkit-12-8
 4) nano ~/.bashrc
-5) 
+5) You can use the arrow keys to navigate through the file. To add the environment variable lines, scroll to the end of the file (it's a good practice to add custom configurations at the end to keep things organized). Type the following lines exactly as shown:
+      
+      export PATH="/usr/local/cuda/bin:$PATH"
+      export LD_LIBRARY_PATH="/usr/local/cuda/lib64:$LD_LIBRARY_PATH"
+      
+   To save the changes in nano, press Ctrl+O (write out), then press Enter to confirm the filename. To exit nano, press Ctrl+X.
+6) nvcc --version
+7) sudo apt install nvidia-cuda-toolkit
+8) nvcc --version
 
