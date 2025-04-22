@@ -5,7 +5,6 @@ RUNNING STEPS-
 
 
 ---------------------------------------------
-
 CUDA INSTALLATION
 ------------------------------------------
 
@@ -30,3 +29,4 @@ CUDA INSTALLATION
 7) sudo apt install nvidia-cuda-toolkit
 8) nvcc --version
 
+--------------------------------------------------
