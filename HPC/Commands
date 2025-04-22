@@ -1,0 +1,3 @@
+-------------------------------------------
+g++ practical_1.cpp -o practical_1 -fopenmp
+./Practical_1
