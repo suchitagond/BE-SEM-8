@@ -1,15 +1,4 @@
-# Check CUDA version
-!nvcc --version
-# Install CUDA package
-!pip install git+https://github.com/afnan47/cuda.git
-# Load nvcc plugin
-%load_ext nvcc_plugin 
 
-
-
-#Min,Max, Sum and Average Operations
-
-%%writefile sum.cu
 #include <iostream>
 #include <vector>
 #include <climits>
@@ -90,7 +79,3 @@ int main() {
     return 0;
 }
 
-
-
-!nvcc sum.cu -o sum
-!./sum
